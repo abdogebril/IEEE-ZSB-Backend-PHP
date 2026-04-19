@@ -2,7 +2,9 @@
 
 ## 👌Single Entry Point
 
+
 ###  What is the problem....??
+
 Without control, users can access files directly by typing the file name in the URL.
 
 Examples:
@@ -12,7 +14,9 @@ Examples:
 
 This is not secure and makes the project structure messy because every file is directly accessible.
 
+
 ###  How to fix it?
+
 We make `index.php` the only entry point for the whole project.
 All requests must pass through it first.
 

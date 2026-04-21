@@ -219,6 +219,30 @@ class Iphone extends MakeDevice {
 ```
 <hr color = "red">
 
+## Types of Methods in Abstract Classes
+
+In Abstract Classes, there are two types of methods:
+
+1. **Abstract Methods**
+   ```php
+   abstract public function sound();
+   ```
+   👉 These must be implemented in any class that inherits from the abstract class. No choice.
+
+2. **Normal Methods**
+   ```php
+   public function eat() {
+       echo "Eating...";
+   }
+   ```
+   👉 These are already implemented. You can use them as is, or override them in the child class (optional). If you override, you can change the behavior, like changing the print statement.
+
+In Interfaces, you must implement everything, no choice. All methods are public by default.
+
+This is part of Polymorphism.
+
+<hr color = "red">
+
 ## 4) Abstract Class vs Interface
 
 Both are used for abstraction but are different.
